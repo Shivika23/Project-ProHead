@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(#FF1493, #FF69B4, #FFB6C1, #FFC0CB, #FFE4E1);
+  }
+
+  #shadow {
+    width: 700px;
+    height: 650px;
+    padding: 25px;
+    background-color: rgba(238, 150, 179, 0.89);
+    box-shadow: 25px 25px MistyRose;
+    border-radius: 10px;
+  
+  }
+  
+  #div2 {
+    width: 600px;
+    height: 350px;
+    padding: 15px;
+    background-color: MistyRose;
+    border-radius: 50px;
+  
+  }
+
+  #pro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    letter-spacing: 4;
+  }
+
+  .btn {
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    margin-top:90px;
+    width: 500px;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .btn:hover {
+    background-color: deeppink;
+    color: white;
+  }
+  
+  
+  .header img {
+    width: 100px;
+    margin-left: -15px;
+  }

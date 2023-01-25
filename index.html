@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>ProHead</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="logout()" id="logout" class="btn">Logout</button>
+    <center>
+        <h1 id="pro" class="header">
+            Pro Head
+            <sup>
+                <img src="st-removebg-preview.png">
+            </sup>
+        </h1>
+
+
+        <div id="shadow">
+            <h3 id="welcome">Welcome</h3>
+            <h4 style="color:red;">*Please press allow as soon as popup comes. After you give a voice command*</h4>
+            <label id="voice">Your voice output : </label>
+            <br>
+            <textarea id="textbox" readonly="true" class="form-control"></textarea>
+            <br>
+            <br>
+            <button id="start_button" class="go" onclick="start()">Say</button> <span><button id="clear_button"
+                    class="go" onclick="clear()">Clear</button></span>
+        </div>
+
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
